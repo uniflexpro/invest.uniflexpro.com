@@ -4,7 +4,7 @@
 <head>
 
     <!-- =====================================================
-         CONFIGURAÇÃO BASE
+         BASE
     ====================================================== -->
 
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
     </title>
 
     <meta name="description"
-          content="A INVEST, unidade de investimento imobiliário da UniFlex PRO, identifica imóveis com potencial, analisa oportunidades, coordena a remodelação, controla a execução e desenvolve estratégias de valorização e comercialização.">
+          content="INVEST é a área da UniFlex PRO dedicada à identificação, aquisição, remodelação e valorização de imóveis. Investimento imobiliário com análise, execução e controlo.">
 
     <meta name="robots"
           content="index, follow">
@@ -49,7 +49,7 @@
           content="INVEST | Investimento Imobiliário com Análise, Execução e Controlo">
 
     <meta property="og:description"
-          content="Identificamos oportunidades imobiliárias, analisamos o seu potencial, coordenamos a remodelação e criamos condições para a valorização dos ativos.">
+          content="Identificamos oportunidades, analisamos o potencial dos imóveis, coordenamos a remodelação e desenvolvemos estratégias de valorização imobiliária.">
 
     <meta property="og:url"
           content="https://invest.uniflexpro.com/">
@@ -59,17 +59,12 @@
 
 
     <!-- =====================================================
-         FAVICON
+         FAVICON + CSS
     ====================================================== -->
 
     <link rel="icon"
           type="image/png"
           href="images/favicon.png">
-
-
-    <!-- =====================================================
-         CSS
-    ====================================================== -->
 
     <link rel="stylesheet"
           href="css/style.css">
@@ -81,7 +76,7 @@
 
 
 <!-- =========================================================
-     ACESSIBILIDADE
+     SKIP LINK
 ========================================================= -->
 
 <a href="#main"
@@ -90,7 +85,6 @@
     Ir para o conteúdo
 
 </a>
-
 
 
 <!-- =========================================================
@@ -103,7 +97,7 @@
     <div class="header-container">
 
 
-        <!-- MARCA -->
+        <!-- MARCA PRINCIPAL -->
 
         <a href="https://uniflexpro.com"
            class="brand"
@@ -116,9 +110,11 @@
         </a>
 
 
-        <!-- IDENTIFICAÇÃO DA UNIDADE -->
+        <!-- DIVISÃO -->
 
-        <div class="division">
+        <a href="/"
+           class="division"
+           aria-label="INVEST - Página inicial">
 
             <span class="division-separator"></span>
 
@@ -126,7 +122,7 @@
                 INVEST
             </span>
 
-        </div>
+        </a>
 
 
         <!-- NAVEGAÇÃO -->
@@ -134,20 +130,24 @@
         <nav class="main-nav"
              aria-label="Navegação principal">
 
+            <a href="/sobre/">
+                Sobre
+            </a>
+
             <a href="#modelo">
                 Modelo
             </a>
 
-            <a href="#valor">
-                Como Criamos Valor
+            <a href="/projetos/">
+                Projetos
             </a>
 
-            <a href="#processo">
-                Processo
+            <a href="/investir-em-portugal/">
+                Investir em Portugal
             </a>
 
-            <a href="#oportunidades">
-                Oportunidades
+            <a href="/historia/">
+                História
             </a>
 
         </nav>
@@ -158,7 +158,7 @@
         <a href="#contacto"
            class="header-cta">
 
-            Falar Connosco
+            Contacto
 
         </a>
 
@@ -182,7 +182,6 @@
 </header>
 
 
-
 <!-- =========================================================
      MAIN
 ========================================================= -->
@@ -201,7 +200,7 @@
     <div class="hero-background">
 
         <img src="images/hero-invest.png"
-             alt="Imóvel em processo de valorização através de investimento e remodelação"
+             alt="Investimento, remodelação e valorização imobiliária"
              class="hero-image">
 
     </div>
@@ -222,10 +221,10 @@
 
             <h1>
 
-                Transformamos imóveis em
+                Investimento imobiliário com
 
                 <strong>
-                    oportunidades de investimento.
+                    análise, execução e controlo.
                 </strong>
 
             </h1>
@@ -233,18 +232,18 @@
 
             <p class="hero-slogan">
 
-                Investimento imobiliário com análise,
-                execução e controlo.
+                Identificamos oportunidades.
+                Transformamos imóveis.
+                Criamos potencial de valorização.
 
             </p>
 
 
             <p class="hero-description">
 
-                Identificamos imóveis com potencial,
-                analisamos cada operação, planeamos
-                a intervenção e coordenamos a remodelação
-                com foco na criação de valor.
+                Da identificação do imóvel à sua remodelação
+                e posicionamento no mercado, desenvolvemos
+                cada projeto através de uma abordagem integrada.
 
             </p>
 
@@ -252,10 +251,10 @@
             <div class="hero-actions">
 
 
-                <a href="#oportunidades"
+                <a href="/projetos/"
                    class="button button-primary">
 
-                    Conhecer Oportunidades
+                    Conhecer Projetos
 
                     <span aria-hidden="true">
                         →
@@ -264,10 +263,10 @@
                 </a>
 
 
-                <a href="#contacto"
+                <a href="#modelo"
                    class="button button-outline">
 
-                    Falar com a nossa equipa
+                    Como Investimos
 
                 </a>
 
@@ -280,8 +279,9 @@
     </div>
 
 
-    <a href="#modelo"
-       class="scroll-indicator">
+    <a href="#sobre-resumo"
+       class="scroll-indicator"
+       aria-label="Continuar">
 
         <span>Descobrir</span>
 
@@ -295,27 +295,27 @@
 </section>
 
 
-
 <!-- =========================================================
-     INTRO
+     SOBRE - RESUMO
 ========================================================= -->
 
-<section class="intro">
+<section class="intro"
+         id="sobre-resumo">
 
     <div class="container container-narrow">
 
 
         <span class="section-label">
-            INVESTIMENTO IMOBILIÁRIO
+            INVEST | UNIFLEX PRO
         </span>
 
 
         <h2>
 
-            Mais do que comprar imóveis.
+            Investimos onde conseguimos
 
             <strong>
-                Criamos uma estratégia para cada oportunidade.
+                criar valor.
             </strong>
 
         </h2>
@@ -323,28 +323,33 @@
 
         <p>
 
-            O potencial de uma operação imobiliária não depende
-            apenas do preço de aquisição.
+            A INVEST é a área da UniFlex PRO dedicada
+            à identificação, aquisição, remodelação,
+            valorização e comercialização de ativos imobiliários.
 
         </p>
 
 
         <p>
 
-            Localização, estado do imóvel, custos de intervenção,
-            prazo de execução, posicionamento de mercado e estratégia
-            de saída influenciam diretamente o resultado de cada projeto.
+            Cada oportunidade é analisada individualmente,
+            considerando o imóvel, a localização, a intervenção
+            necessária, os custos associados e o posicionamento
+            previsto no mercado.
 
         </p>
 
 
-        <p>
+        <a href="/sobre/"
+           class="text-link">
 
-            Na INVEST analisamos estas variáveis antes de avançar
-            e acompanhamos o projeto ao longo das diferentes fases
-            da operação.
+            Conhecer a INVEST
 
-        </p>
+            <span aria-hidden="true">
+                →
+            </span>
+
+        </a>
 
 
     </div>
@@ -352,9 +357,8 @@
 </section>
 
 
-
 <!-- =========================================================
-     MODELO
+     MODELO DE INVESTIMENTO
 ========================================================= -->
 
 <section class="model"
@@ -371,19 +375,18 @@
 
 
             <h2>
-                Uma abordagem integrada ao investimento imobiliário.
+                Da oportunidade à valorização.
             </h2>
 
 
             <p>
 
-                Da identificação da oportunidade à comercialização
-                do imóvel valorizado.
+                Um processo estruturado para analisar,
+                transformar e posicionar ativos imobiliários.
 
             </p>
 
         </div>
-
 
 
         <div class="model-flow">
@@ -407,14 +410,13 @@
 
                 <p>
 
-                    Procuramos imóveis com características
-                    e localização que possam apresentar
-                    potencial de valorização.
+                    Procuramos imóveis onde localização,
+                    características e estado possam justificar
+                    uma oportunidade de valorização.
 
                 </p>
 
             </article>
-
 
 
             <!-- 02 -->
@@ -435,14 +437,13 @@
 
                 <p>
 
-                    Avaliamos preço, custos previsíveis,
-                    necessidades de intervenção e cenário
+                    Avaliamos aquisição, custos associados,
+                    intervenção necessária, prazo e cenário
                     de comercialização.
 
                 </p>
 
             </article>
-
 
 
             <!-- 03 -->
@@ -463,14 +464,13 @@
 
                 <p>
 
-                    Estruturamos a operação de aquisição
-                    de acordo com as características
-                    específicas de cada projeto.
+                    Estruturamos a operação de acordo com
+                    as características e pressupostos
+                    definidos para o projeto.
 
                 </p>
 
             </article>
-
 
 
             <!-- 04 -->
@@ -482,7 +482,7 @@
                 </span>
 
                 <div class="step-icon">
-                    ⛏
+                    ◧
                 </div>
 
                 <h3>
@@ -491,14 +491,13 @@
 
                 <p>
 
-                    Planeamos e coordenamos a intervenção
-                    necessária para transformar e melhorar
-                    o posicionamento do imóvel.
+                    Planeamos, orçamentamos e coordenamos
+                    a intervenção necessária para transformar
+                    o imóvel.
 
                 </p>
 
             </article>
-
 
 
             <!-- 05 -->
@@ -519,14 +518,13 @@
 
                 <p>
 
-                    Trabalhamos o ativo para melhorar
-                    funcionalidade, apresentação
-                    e adequação ao mercado.
+                    Trabalhamos funcionalidade, apresentação
+                    e adequação do ativo ao segmento
+                    de mercado pretendido.
 
                 </p>
 
             </article>
-
 
 
             <!-- 06 -->
@@ -563,9 +561,8 @@
 </section>
 
 
-
 <!-- =========================================================
-     DIFERENCIAL
+     ANÁLISE + EXECUÇÃO
 ========================================================= -->
 
 <section class="execution">
@@ -576,7 +573,7 @@
         <div class="execution-image">
 
             <img src="images/invest.png"
-                 alt="Transformação de imóvel através de remodelação e valorização"
+                 alt="Antes e depois de imóvel remodelado com elementos de análise de investimento"
                  loading="lazy">
 
         </div>
@@ -592,10 +589,10 @@
 
             <h2>
 
-                Não ficamos apenas
+                Investir não termina
 
                 <strong>
-                    na análise do investimento.
+                    na análise financeira.
                 </strong>
 
             </h2>
@@ -603,19 +600,18 @@
 
             <p>
 
-                Um dos fatores mais importantes numa operação
-                de valorização imobiliária é a capacidade
-                de transformar o imóvel dentro dos parâmetros
-                definidos para o projeto.
+                A remodelação é uma das etapas determinantes
+                na criação de valor de determinados projetos
+                imobiliários.
 
             </p>
 
 
             <p>
 
-                A integração com a estrutura da UniFlex PRO
-                permite combinar análise, planeamento
-                e capacidade de execução.
+                A integração da INVEST no ecossistema
+                UniFlex PRO permite aproximar análise,
+                planeamento e capacidade de execução.
 
             </p>
 
@@ -631,7 +627,7 @@
 
                 <div>
                     <span>✓</span>
-                    Planeamento
+                    Estudo económico
                 </div>
 
 
@@ -643,347 +639,21 @@
 
                 <div>
                     <span>✓</span>
-                    Coordenação da remodelação
+                    Planeamento
                 </div>
 
 
                 <div>
                     <span>✓</span>
-                    Controlo de custos
-                </div>
-
-
-                <div>
-                    <span>✓</span>
-                    Acompanhamento da execução
-                </div>
-
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================================================
-     COMO CRIAMOS VALOR
-========================================================= -->
-
-<section class="value"
-         id="valor">
-
-    <div class="container">
-
-
-        <div class="section-heading">
-
-
-            <span class="section-label">
-                CRIAÇÃO DE VALOR
-            </span>
-
-
-            <h2>
-                O valor começa antes da remodelação.
-            </h2>
-
-
-            <p>
-
-                Uma boa execução não transforma automaticamente
-                todas as oportunidades num bom investimento.
-                O processo começa na análise.
-
-            </p>
-
-
-        </div>
-
-
-
-        <div class="value-grid">
-
-
-            <article class="value-card">
-
-                <span class="value-number">
-                    01
-                </span>
-
-                <h3>
-                    Seleção do Imóvel
-                </h3>
-
-                <p>
-
-                    Procuramos oportunidades onde localização,
-                    características e estado do imóvel possam
-                    justificar uma análise mais aprofundada.
-
-                </p>
-
-            </article>
-
-
-
-            <article class="value-card">
-
-                <span class="value-number">
-                    02
-                </span>
-
-                <h3>
-                    Análise Económica
-                </h3>
-
-                <p>
-
-                    Consideramos aquisição, impostos,
-                    custos de intervenção, despesas associadas
-                    e estratégia prevista para o ativo.
-
-                </p>
-
-            </article>
-
-
-
-            <article class="value-card">
-
-                <span class="value-number">
-                    03
-                </span>
-
-                <h3>
-                    Remodelação Estratégica
-                </h3>
-
-                <p>
-
-                    O objetivo não é simplesmente executar
-                    uma obra, mas direcionar o investimento
-                    para intervenções relevantes para o imóvel.
-
-                </p>
-
-            </article>
-
-
-
-            <article class="value-card">
-
-                <span class="value-number">
-                    04
-                </span>
-
-                <h3>
-                    Controlo
-                </h3>
-
-                <p>
-
-                    Acompanhamos custos, decisões técnicas
-                    e evolução da intervenção ao longo
-                    do desenvolvimento do projeto.
-
-                </p>
-
-            </article>
-
-
-
-            <article class="value-card">
-
-                <span class="value-number">
-                    05
-                </span>
-
-                <h3>
-                    Posicionamento
-                </h3>
-
-                <p>
-
-                    Trabalhamos funcionalidade, apresentação
-                    e adequação do imóvel ao segmento de mercado
-                    a que se destina.
-
-                </p>
-
-            </article>
-
-
-
-            <article class="value-card">
-
-                <span class="value-number">
-                    06
-                </span>
-
-                <h3>
-                    Estratégia de Saída
-                </h3>
-
-                <p>
-
-                    Cada operação deve nascer com
-                    uma estratégia de comercialização
-                    coerente com o projeto.
-
-                </p>
-
-            </article>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================================================
-     ANTES / DEPOIS / VALOR
-========================================================= -->
-
-<section class="transformation">
-
-
-    <div class="container">
-
-
-        <div class="transformation-heading">
-
-
-            <span class="section-label">
-                TRANSFORMAÇÃO
-            </span>
-
-
-            <h2>
-
-                O valor não está apenas no imóvel.
-
-                <strong>
-                    Está no que conseguimos fazer com ele.
-                </strong>
-
-            </h2>
-
-
-        </div>
-
-
-        <div class="transformation-flow">
-
-
-            <div class="transformation-stage">
-
-                <span>
-                    01
-                </span>
-
-                <strong>
-                    Antes
-                </strong>
-
-                <p>
-                    Identificar o potencial.
-                </p>
-
-            </div>
-
-
-            <div class="transformation-arrow">
-                →
-            </div>
-
-
-            <div class="transformation-stage">
-
-                <span>
-                    02
-                </span>
-
-                <strong>
-                    Projeto
-                </strong>
-
-                <p>
-                    Definir onde criar valor.
-                </p>
-
-            </div>
-
-
-            <div class="transformation-arrow">
-                →
-            </div>
-
-
-            <div class="transformation-stage">
-
-                <span>
-                    03
-                </span>
-
-                <strong>
                     Remodelação
-                </strong>
-
-                <p>
-                    Executar a transformação.
-                </p>
-
-            </div>
+                </div>
 
 
-            <div class="transformation-arrow">
-                →
-            </div>
+                <div>
+                    <span>✓</span>
+                    Controlo
+                </div>
 
-
-            <div class="transformation-stage">
-
-                <span>
-                    04
-                </span>
-
-                <strong>
-                    Depois
-                </strong>
-
-                <p>
-                    Preparar o ativo.
-                </p>
-
-            </div>
-
-
-            <div class="transformation-arrow">
-                →
-            </div>
-
-
-            <div class="transformation-stage">
-
-                <span>
-                    05
-                </span>
-
-                <strong>
-                    Valor
-                </strong>
-
-                <p>
-                    Posicionar para o mercado.
-                </p>
 
             </div>
 
@@ -995,234 +665,164 @@
 </section>
 
 
-
 <!-- =========================================================
-     PROCESSO
+     PROJETOS
 ========================================================= -->
 
-<section class="process"
-         id="processo">
+<section class="projects-home"
+         id="projetos">
 
     <div class="container">
 
 
         <div class="section-heading">
 
-
             <span class="section-label">
-                PROCESSO
+                PROJETOS
             </span>
-
 
             <h2>
-                Cada projeto é acompanhado por etapas.
+                Experiência aplicada a projetos reais.
             </h2>
 
-
-        </div>
-
-
-
-        <div class="process-list">
-
-
-            <article class="process-item">
-
-                <span>01</span>
-
-                <div>
-                    <h3>Análise da Oportunidade</h3>
-
-                    <p>
-                        Avaliação inicial do imóvel e do contexto da operação.
-                    </p>
-                </div>
-
-            </article>
-
-
-            <article class="process-item">
-
-                <span>02</span>
-
-                <div>
-                    <h3>Estudo Económico</h3>
-
-                    <p>
-                        Identificação dos principais custos, pressupostos e cenários.
-                    </p>
-                </div>
-
-            </article>
-
-
-            <article class="process-item">
-
-                <span>03</span>
-
-                <div>
-                    <h3>Estratégia</h3>
-
-                    <p>
-                        Definição do conceito de intervenção e posicionamento pretendido.
-                    </p>
-                </div>
-
-            </article>
-
-
-            <article class="process-item">
-
-                <span>04</span>
-
-                <div>
-                    <h3>Aquisição</h3>
-
-                    <p>
-                        Estruturação da operação de acordo com o projeto.
-                    </p>
-                </div>
-
-            </article>
-
-
-            <article class="process-item">
-
-                <span>05</span>
-
-                <div>
-                    <h3>Projeto e Orçamento</h3>
-
-                    <p>
-                        Planeamento da intervenção e estimativa dos recursos necessários.
-                    </p>
-                </div>
-
-            </article>
-
-
-            <article class="process-item">
-
-                <span>06</span>
-
-                <div>
-                    <h3>Remodelação</h3>
-
-                    <p>
-                        Execução e acompanhamento dos trabalhos definidos.
-                    </p>
-                </div>
-
-            </article>
-
-
-            <article class="process-item">
-
-                <span>07</span>
-
-                <div>
-                    <h3>Controlo</h3>
-
-                    <p>
-                        Acompanhamento da evolução técnica e económica do projeto.
-                    </p>
-                </div>
-
-            </article>
-
-
-            <article class="process-item">
-
-                <span>08</span>
-
-                <div>
-                    <h3>Comercialização</h3>
-
-                    <p>
-                        Preparação do ativo para a estratégia de saída definida.
-                    </p>
-                </div>
-
-            </article>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================================================
-     OPORTUNIDADES
-========================================================= -->
-
-<section class="opportunities"
-         id="oportunidades">
-
-    <div class="container">
-
-
-        <div class="opportunities-heading">
-
-
-            <div>
-
-                <span class="section-label">
-                    OPORTUNIDADES
-                </span>
-
-
-                <h2>
-                    Projetos de investimento.
-                </h2>
-
-            </div>
-
-
             <p>
 
-                Esta área será utilizada para apresentar
-                oportunidades e projetos imobiliários
-                selecionados pela INVEST.
+                Conheça alguns dos projetos que fazem parte
+                do percurso de investimento, remodelação
+                e valorização imobiliária que agora integra
+                a INVEST.
 
             </p>
 
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- =================================================
+                 SOL POENTE
+            ================================================== -->
+
+            <article class="project-card">
+
+
+                <a href="/projetos/sol-poente/"
+                   class="project-image">
+
+                    <img src="images/projects/sol-poente.jpg"
+                         alt="Projeto Sol Poente"
+                         loading="lazy">
+
+                </a>
+
+
+                <div class="project-content">
+
+
+                    <span class="project-type">
+                        PROJETO
+                    </span>
+
+
+                    <h3>
+                        Sol Poente
+                    </h3>
+
+
+                    <p>
+
+                        Conheça a evolução do projeto através
+                        de fotografias reais, desenvolvimento
+                        da intervenção e imagens 3D.
+
+                    </p>
+
+
+                    <a href="/projetos/sol-poente/"
+                       class="text-link">
+
+                        Ver projeto
+
+                        <span aria-hidden="true">
+                            →
+                        </span>
+
+                    </a>
+
+
+                </div>
+
+
+            </article>
+
+
+            <!-- =================================================
+                 CASA SÃO TORCATO
+            ================================================== -->
+
+            <article class="project-card">
+
+
+                <a href="/projetos/casa-sao-torcato/"
+                   class="project-image">
+
+                    <img src="images/projects/casa-sao-torcato.jpg"
+                         alt="Projeto Casa São Torcato"
+                         loading="lazy">
+
+                </a>
+
+
+                <div class="project-content">
+
+
+                    <span class="project-type">
+                        PROJETO
+                    </span>
+
+
+                    <h3>
+                        Casa São Torcato
+                    </h3>
+
+
+                    <p>
+
+                        Um projeto de investimento imobiliário
+                        centrado na transformação e valorização
+                        de uma propriedade residencial.
+
+                    </p>
+
+
+                    <a href="/projetos/casa-sao-torcato/"
+                       class="text-link">
+
+                        Ver projeto
+
+                        <span aria-hidden="true">
+                            →
+                        </span>
+
+                    </a>
+
+
+                </div>
+
+
+            </article>
+
 
         </div>
 
 
+        <div class="projects-action">
 
-        <!-- =================================================
-             PLACEHOLDER FUTURO
-        ================================================== -->
+            <a href="/projetos/"
+               class="button button-dark">
 
-        <div class="opportunities-empty">
-
-
-            <span class="opportunities-icon">
-                ◇
-            </span>
-
-
-            <h3>
-                Novas oportunidades em análise.
-            </h3>
-
-
-            <p>
-
-                Estamos permanentemente a analisar imóveis
-                e projetos com potencial de valorização.
-
-            </p>
-
-
-            <a href="#contacto"
-               class="button button-primary">
-
-                Quero receber informações
+                Ver todos os projetos
 
                 <span aria-hidden="true">
                     →
@@ -1230,7 +830,6 @@
 
             </a>
 
-
         </div>
 
 
@@ -1239,62 +838,246 @@
 </section>
 
 
-
 <!-- =========================================================
-     PARA QUEM
+     HISTÓRIA
 ========================================================= -->
 
-<section class="audience">
+<section class="history-preview">
+
+    <div class="container">
+
+
+        <div class="history-preview-grid">
+
+
+            <div class="history-preview-number">
+
+                <span>
+                    EXPERIÊNCIA
+                </span>
+
+                <strong>
+                    +
+                </strong>
+
+            </div>
+
+
+            <div class="history-preview-content">
+
+
+                <span class="section-label">
+                    A NOSSA HISTÓRIA
+                </span>
+
+
+                <h2>
+                    Experiência construída projeto a projeto.
+                </h2>
+
+
+                <p>
+
+                    A experiência que sustenta a INVEST
+                    resulta de projetos, decisões, remodelações
+                    e aprendizagens acumuladas ao longo
+                    do desenvolvimento de diferentes operações
+                    imobiliárias.
+
+                </p>
+
+
+                <a href="/historia/"
+                   class="text-link">
+
+                    Conhecer a nossa história
+
+                    <span aria-hidden="true">
+                        →
+                    </span>
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     INVESTIR EM PORTUGAL
+========================================================= -->
+
+<section class="portugal-preview">
+
+    <div class="container">
+
+
+        <div class="portugal-preview-grid">
+
+
+            <div class="portugal-content">
+
+
+                <span class="section-label">
+                    INVESTIR EM PORTUGAL
+                </span>
+
+
+                <h2>
+                    Conhecer o mercado é parte do investimento.
+                </h2>
+
+
+                <p>
+
+                    Portugal apresenta diferentes realidades
+                    imobiliárias, regiões, segmentos e perfis
+                    de procura.
+
+                </p>
+
+
+                <p>
+
+                    Compreender o contexto local, a localização
+                    do ativo, os custos envolvidos e o público
+                    a que o imóvel se destina é essencial para
+                    analisar cada oportunidade.
+
+                </p>
+
+
+                <a href="/investir-em-portugal/"
+                   class="button button-primary">
+
+                    Investir em Portugal
+
+                    <span aria-hidden="true">
+                        →
+                    </span>
+
+                </a>
+
+
+            </div>
+
+
+            <div class="portugal-visual">
+
+                <img src="images/investir-portugal.jpg"
+                     alt="Mercado imobiliário e investimento em Portugal"
+                     loading="lazy">
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PRINCÍPIOS
+========================================================= -->
+
+<section class="principles">
 
     <div class="container">
 
 
         <div class="section-heading">
 
-
             <span class="section-label">
-                PARA QUEM
+                COMO TRABALHAMOS
             </span>
 
-
             <h2>
-                Diferentes perfis. Um processo estruturado.
+                Decisões suportadas por informação e execução.
             </h2>
-
 
         </div>
 
 
-        <div class="audience-grid">
+        <div class="principles-grid">
 
 
             <article>
+
                 <span>01</span>
-                <h3>Investidores Particulares</h3>
+
+                <h3>
+                    Análise
+                </h3>
+
+                <p>
+
+                    Cada oportunidade é avaliada
+                    antes da tomada de decisão.
+
+                </p>
+
             </article>
 
 
             <article>
+
                 <span>02</span>
-                <h3>Empresários</h3>
+
+                <h3>
+                    Planeamento
+                </h3>
+
+                <p>
+
+                    A intervenção deve responder ao objetivo
+                    definido para o ativo.
+
+                </p>
+
             </article>
 
 
             <article>
+
                 <span>03</span>
-                <h3>Investidores Imobiliários</h3>
+
+                <h3>
+                    Execução
+                </h3>
+
+                <p>
+
+                    A transformação do imóvel exige
+                    capacidade técnica e operacional.
+
+                </p>
+
             </article>
 
 
             <article>
+
                 <span>04</span>
-                <h3>Parceiros de Investimento</h3>
-            </article>
 
+                <h3>
+                    Controlo
+                </h3>
 
-            <article>
-                <span>05</span>
-                <h3>Proprietários</h3>
+                <p>
+
+                    Custos, decisões e progresso precisam
+                    de acompanhamento ao longo do projeto.
+
+                </p>
+
             </article>
 
 
@@ -1305,14 +1088,14 @@
 </section>
 
 
-
 <!-- =========================================================
-     TRANSPARÊNCIA / RISCO
+     TRANSPARÊNCIA
 ========================================================= -->
 
 <section class="transparency">
 
     <div class="container">
+
 
         <div class="transparency-box">
 
@@ -1322,7 +1105,6 @@
                 <span class="section-label">
                     TRANSPARÊNCIA
                 </span>
-
 
                 <h2>
                     Investir exige análise.
@@ -1336,29 +1118,29 @@
 
                 <p>
 
-                    Cada operação imobiliária envolve riscos,
-                    custos e variáveis próprias.
+                    Cada operação imobiliária envolve
+                    riscos, custos e variáveis próprias.
 
                 </p>
 
 
                 <p>
 
-                    Antes de qualquer decisão são analisados,
-                    de acordo com a informação disponível para
-                    cada projeto, fatores como aquisição,
-                    intervenção prevista, custos associados,
-                    prazos e estratégia de comercialização.
+                    Antes de cada decisão devem ser analisados
+                    fatores como aquisição, custos associados,
+                    intervenção prevista, prazos, mercado
+                    e estratégia de comercialização.
 
                 </p>
 
 
                 <p>
 
-                    As projeções e cenários apresentados para
-                    cada operação constituem estimativas e não
-                    representam garantia de valorização,
-                    rentabilidade ou retorno.
+                    Qualquer cenário económico ou projeção
+                    relativa a um projeto constitui uma estimativa
+                    dependente dos pressupostos considerados
+                    e não representa garantia de valorização,
+                    rendimento ou retorno.
 
                 </p>
 
@@ -1373,14 +1155,14 @@
 </section>
 
 
-
 <!-- =========================================================
-     CTA FINAL
+     CTA
 ========================================================= -->
 
 <section class="final-cta">
 
     <div class="container">
+
 
         <div class="final-cta-content">
 
@@ -1392,10 +1174,10 @@
 
             <h2>
 
-                Procura oportunidades
+                Imóveis com potencial.
 
                 <strong>
-                    de investimento imobiliário?
+                    Projetos com estratégia.
                 </strong>
 
             </h2>
@@ -1403,8 +1185,9 @@
 
             <p>
 
-                Conheça o nosso modelo e fale connosco
-                sobre projetos e futuras oportunidades.
+                Se procura oportunidades imobiliárias,
+                pretende apresentar um imóvel ou analisar
+                uma possível parceria, fale connosco.
 
             </p>
 
@@ -1428,7 +1211,6 @@
 </section>
 
 
-
 <!-- =========================================================
      CONTACTO
 ========================================================= -->
@@ -1442,8 +1224,6 @@
         <div class="contact-grid">
 
 
-            <!-- TEXTO -->
-
             <div class="contact-content">
 
 
@@ -1453,15 +1233,15 @@
 
 
                 <h2>
-                    Vamos analisar oportunidades?
+                    Vamos analisar uma oportunidade?
                 </h2>
 
 
                 <p>
 
-                    Se procura oportunidades imobiliárias
-                    ou pretende apresentar um imóvel com
-                    potencial, entre em contacto connosco.
+                    Fale connosco sobre investimento,
+                    imóveis com potencial ou possíveis
+                    parcerias imobiliárias.
 
                 </p>
 
@@ -1482,7 +1262,7 @@
 
                     <a href="https://uniflexpro.com">
 
-                        <span>Grupo</span>
+                        <span>UniFlex PRO</span>
 
                         <strong>
                             uniflexpro.com
@@ -1495,7 +1275,6 @@
 
 
             </div>
-
 
 
             <!-- FORMULÁRIO -->
@@ -1520,7 +1299,6 @@
                 </div>
 
 
-
                 <div class="form-field">
 
                     <label for="email">
@@ -1534,7 +1312,6 @@
                            required>
 
                 </div>
-
 
 
                 <div class="form-field">
@@ -1551,11 +1328,10 @@
                 </div>
 
 
-
                 <div class="form-field">
 
                     <label for="interesse">
-                        Interesse
+                        Motivo do Contacto
                     </label>
 
 
@@ -1566,26 +1342,25 @@
                             Selecione
                         </option>
 
-                        <option value="investir">
+                        <option value="investidor">
                             Quero conhecer oportunidades
                         </option>
 
                         <option value="imovel">
-                            Tenho um imóvel
+                            Tenho um imóvel para apresentar
                         </option>
 
                         <option value="parceria">
                             Quero analisar uma parceria
                         </option>
 
-                        <option value="outro">
-                            Outro assunto
+                        <option value="informacao">
+                            Quero mais informações
                         </option>
 
                     </select>
 
                 </div>
-
 
 
                 <div class="form-field form-field-full">
@@ -1600,7 +1375,6 @@
                               required></textarea>
 
                 </div>
-
 
 
                 <div class="form-actions">
@@ -1621,8 +1395,8 @@
 
                 <p class="form-note">
 
-                    Ao enviar este formulário declara ter lido
-                    a Política de Privacidade.
+                    Ao enviar este formulário declara ter
+                    lido a Política de Privacidade.
 
                 </p>
 
@@ -1640,7 +1414,6 @@
 </main>
 
 
-
 <!-- =========================================================
      FOOTER
 ========================================================= -->
@@ -1653,7 +1426,7 @@
         <div class="footer-top">
 
 
-            <!-- MARCA -->
+            <!-- BRAND -->
 
             <div class="footer-brand">
 
@@ -1669,19 +1442,20 @@
 
 
                 <p>
+
                     Investimento imobiliário com análise,
                     execução e controlo.
+
                 </p>
 
 
             </div>
 
 
-
-            <!-- NAVEGAÇÃO -->
+            <!-- INVEST -->
 
             <nav class="footer-navigation"
-                 aria-label="Navegação INVEST">
+                 aria-label="INVEST">
 
 
                 <span class="footer-heading">
@@ -1689,25 +1463,25 @@
                 </span>
 
 
+                <a href="/sobre/">
+                    Sobre
+                </a>
+
                 <a href="#modelo">
                     Modelo
                 </a>
 
-
-                <a href="#valor">
-                    Criação de Valor
+                <a href="/projetos/">
+                    Projetos
                 </a>
 
-
-                <a href="#processo">
-                    Processo
+                <a href="/investir-em-portugal/">
+                    Investir em Portugal
                 </a>
 
-
-                <a href="#oportunidades">
-                    Oportunidades
+                <a href="/historia/">
+                    História
                 </a>
-
 
                 <a href="#contacto">
                     Contacto
@@ -1717,8 +1491,7 @@
             </nav>
 
 
-
-            <!-- UNIFLEX -->
+            <!-- UNIFLEX PRO -->
 
             <nav class="footer-group"
                  aria-label="UniFlex PRO">
@@ -1733,21 +1506,17 @@
                     Portal UniFlex PRO
                 </a>
 
-
                 <a href="https://edificios.uniflexpro.com">
                     Edifícios
                 </a>
-
 
                 <a href="https://subempreitada.uniflexpro.com">
                     Subempreitada
                 </a>
 
-
                 <a href="https://talentos.uniflexpro.com">
                     Talentos
                 </a>
-
 
                 <a href="https://consultoria.uniflexpro.com">
                     Consultoria
@@ -1758,7 +1527,6 @@
 
 
         </div>
-
 
 
         <div class="footer-bottom">
@@ -1772,16 +1540,13 @@
 
             <div class="footer-legal">
 
-
                 <a href="#">
                     Política de Privacidade
                 </a>
 
-
                 <a href="#">
                     Termos e Condições
                 </a>
-
 
             </div>
 
@@ -1794,9 +1559,8 @@
 </footer>
 
 
-
 <!-- =========================================================
-     SCHEMA
+     STRUCTURED DATA
 ========================================================= -->
 
 <script type="application/ld+json">
@@ -1805,17 +1569,16 @@
     "@type": "Organization",
     "name": "INVEST | UniFlex PRO",
     "url": "https://invest.uniflexpro.com/",
+    "logo": "https://invest.uniflexpro.com/images/logo.png",
+    "email": "contacto@uniflexpro.com",
     "parentOrganization": {
         "@type": "Organization",
         "name": "UniFlex PRO",
         "url": "https://uniflexpro.com/"
     },
-    "logo": "https://invest.uniflexpro.com/images/logo.png",
-    "email": "contacto@uniflexpro.com",
-    "description": "Unidade da UniFlex PRO dedicada à identificação, análise, remodelação e valorização de oportunidades imobiliárias."
+    "description": "Área da UniFlex PRO dedicada à identificação, aquisição, remodelação e valorização de ativos imobiliários."
 }
 </script>
-
 
 
 <!-- =========================================================
